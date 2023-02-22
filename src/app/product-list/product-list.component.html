@@ -12,10 +12,10 @@
   <p *ngIf="product.description">
     Description: {{ product.description }}
   </p>
-  <a href="https://web.whatsapp.com/"><button type="button">
+  <a href="https://web.whatsapp.com//send?text=http://localhost:4200/products/{{product.id}}" data-action="share/whatsapp/share"  
+        target="_blank"> <button type="button">
     Share
-</button>
-</a>
+</button> </a>  
   
   <app-product-alerts
     [product]="product" 
