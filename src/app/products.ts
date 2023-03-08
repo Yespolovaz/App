@@ -5,6 +5,8 @@ export interface Product {
   description: string;
   image: string;
   rating: number;
+  category:string;
+  like:number;
   link: string;
 }
 
@@ -16,6 +18,8 @@ export const products = [
   description: 'Smart Phone Apple iPhone 11 128Gb Slim Box',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h17/h14/31489167425566/apple-iphone-11-128gb-slim-box-cernyj-100692388-1-Container.jpg',
   rating: 4.8,
+  category:"Phone",
+  like:0,
   link:"https://kaspi.kz/shop/p/apple-iphone-11-128gb-slim-box-chernyi-100692388/?c=750000000#!/item"
 },
 {
@@ -25,6 +29,8 @@ export const products = [
   description: 'Smart Phone Apple iPhone 12 128Gb',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h13/ha5/33278501191710/apple-iphone-12-128gb-cernyj-100656960-1-Container.jpg',
   rating: 4.8,
+  category:"Phone",
+  like:0,
   link:"https://kaspi.kz/shop/p/apple-iphone-12-128gb-chernyi-100656960/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_smartphones_apple_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy15OGrjx3cUri2LGIj4DG6zeMOGx99cu7mY1vOW3_fbNNjmWXDVyGBoCzKoQAvD_BwE#!/item"
 },
 {
@@ -34,6 +40,8 @@ export const products = [
   description: 'Smart Phone Apple iPhone 13 128Gb',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h49/hc0/46392662523934/apple-iphone-13-128gb-cernyj-102298404-1-Container.jpg',
   rating: 4.8,
+  category:"Phone",
+  like:0,
   link:"https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_smartphones_apple_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy15OGrjx3cUri2LGIj4DG6zeMOGx99cu7mY1vOW3_fbNNjmWXDVyGBoCzKoQAvD_BwE#!/item"
 },
 {
@@ -43,6 +51,8 @@ export const products = [
   description: 'Apple iPhone 14 128Gb',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8f/h61/63072540131358/apple-iphone-14-128gb-cernyj-106363023-1.jpg',
   rating: 4.9,
+  category:"Phone",
+  like:0,
   link:"https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_smartphones_apple_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy15OGrjx3cUri2LGIj4DG6zeMOGx99cu7mY1vOW3_fbNNjmWXDVyGBoCzKoQAvD_BwE#!/item"
 },
 {
@@ -52,6 +62,8 @@ export const products = [
   description: 'Smart Phone Samsung Galaxy A23 ',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb5/ha6/49792685244446/smartfon-samsung-galaxy-a23-sm-a235fzkkskz-128gb-black-104348541-1.jpg',
   rating: 4.5,
+  category:"Phone",
+  like:0,
   link:"https://kaspi.kz/shop/p/samsung-galaxy-a23-6-gb-128-gb-chernyi-104348541/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_smartphones_apple_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy15OGrjx3cUri2LGIj4DG6zeMOGx99cu7mY1vOW3_fbNNjmWXDVyGBoCzKoQAvD_BwE#!/item"
 },
 {
@@ -61,6 +73,8 @@ export const products = [
   description: 'Laptop Acer Nitro 5 AN515-57 NH.QEKER.004 Black',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h2e/hc4/67236399185950/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028-1.jpg',
   rating: 4.6,
+  category:"Laptop",
+  like:0,
   link:"https://kaspi.kz/shop/p/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy-Vz4_7MS_Ra4b1VRmDl7z-jG8yrhE89KEKVcBc9FG8B9qqWMP_pKRoCUjgQAvD_BwE#!/item"
 },
 {
@@ -70,6 +84,8 @@ export const products = [
   description: 'Laptop Lenovo IdeaPad 3 15ITL6 82H8005GRK Gray',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8f/h3a/66993674190878/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705-1.jpg',
   rating: 4.0,
+  category:"Laptop",
+  like:0,
   link:"https://kaspi.kz/shop/p/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy-Vz4_7MS_Ra4b1VRmDl7z-jG8yrhE89KEKVcBc9FG8B9qqWMP_pKRoCUjgQAvD_BwE#!/item"
 },
 {
@@ -79,6 +95,8 @@ export const products = [
   description: 'Laptop ASUS X515EA-BQ3144W I385SUW1 90NB0TY1-M02ZL0 Gray',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb8/hbd/65953424277534/asus-x515ea-bq3144w-i385suw1-90nb0ty1-m02zl0-temno-seryi-107650928-1.jpg',
   rating: 4.8,
+  category:"Laptop",
+  like:0,
   link:"https://kaspi.kz/shop/p/asus-x515ea-bq3144w-i385suw1-90nb0ty1-m02zl0-temno-seryi-107650928/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy-Vz4_7MS_Ra4b1VRmDl7z-jG8yrhE89KEKVcBc9FG8B9qqWMP_pKRoCUjgQAvD_BwE#!/item"
 },
 {
@@ -88,6 +106,8 @@ export const products = [
   description: 'Laptop HP 15s-eq1387ur 4Z3A4EA Gray',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h3f/h8f/67253149204510/hp-15s-eq1387ur-4z3a4ea-serebristyi-108203227-1.jpg',
   rating: 4.6,
+  category:"Laptop",
+  like:0,
   link:"https://kaspi.kz/shop/p/hp-15s-eq1387ur-4z3a4ea-serebristyi-108203227/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy-Vz4_7MS_Ra4b1VRmDl7z-jG8yrhE89KEKVcBc9FG8B9qqWMP_pKRoCUjgQAvD_BwE#!/item"
 },
 {
@@ -97,6 +117,63 @@ export const products = [
   description: 'Laptop Apple MacBook Air 13 MGN93 Gray',
   image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd6/h5b/33271772446750/apple-macbook-air-2020-13-3-mgn93-serebristyj-100798912-1-Container.jpg',
   rating: 4.9,
+  category:"Laptop",
+  like:0,
   link:"https://kaspi.kz/shop/p/apple-macbook-air-13-mgn93-serebristyi-100798912/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy-Vz4_7MS_Ra4b1VRmDl7z-jG8yrhE89KEKVcBc9FG8B9qqWMP_pKRoCUjgQAvD_BwE#!/item"
+},
+{
+  id: 11,
+  name: 'Earphones Marshall',
+  price: 307.70,
+  description: 'Earphones Marshall Major IV Black',
+  image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h6a/hd9/44876126093342/marshall-major-iv-102138144-3-Container.jpg',
+  rating: 4.9,
+  category:"Earphones",
+  like:0,
+  link:"https://kaspi.kz/shop/p/marshall-major-iv-chernyi-102138144/?c=750000000"
+},
+{
+  id: 12,
+  name: 'Earphones Celebrat',
+  price: 20.90,
+  description: 'Earphones Celebrat A18 Black',
+  image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hed/h27/48519627276318/celebrat-a18-cernyj-103563051-1.jpg',
+  rating: 4.6,
+  category:"Earphones",
+  like:0,
+  link:"https://kaspi.kz/shop/p/celebrat-a18-chernyi-103563051/?c=750000000#!/item"
+},
+{
+  id: 13,
+  name: 'Earphones JBL',
+  price: 56.80,
+  description: 'Earphones JBL Tune 510BT Black',
+  image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h3d/h1d/33957524537374/jbl-tune-510bt-cernyj-101420081-1-Container.jpg',
+  rating: 4.8,
+  category:"Earphones",
+  like:0,
+  link:"https://kaspi.kz/shop/p/jbl-tune-510bt-chernyi-101420081/?c=750000000#!/item"
+},
+{
+  id: 14,
+  name: 'Earphones Sony',
+  price: 70.20,
+  description: 'Earphones Sony WH-CH510 Black',
+  image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h86/h26/50174031331358/sony-whch510b-e-cernyj-100020063-1-Container.jpg',
+  rating: 4.8,
+  category:"Earphones",
+  like:0,
+  link:"https://kaspi.kz/shop/p/sony-wh-ch510-chernyi-100020063/?c=750000000#!/item"
+},
+{
+  id: 15,
+  name: 'Earphones Sony',
+  price: 70.20,
+  description: 'Earphones Sony WH-CH510 Black',
+  image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h86/h26/50174031331358/sony-whch510b-e-cernyj-100020063-1-Container.jpg',
+  rating: 4.8,
+  category:"Earphones",
+  like:0,
+  link:"https://kaspi.kz/shop/p/sony-wh-ch510-chernyi-100020063/?c=750000000#!/item"
 }
 ]
